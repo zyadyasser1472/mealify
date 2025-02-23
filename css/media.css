@@ -205,25 +205,6 @@
 
 /*^========> Footer <========*/
 
-@media screen and (max-width: 1200px) {
-  footer .container :is(.brand-info, .contact-us) {
-    width: calc(calc(100% - var(--gap)) / 2);
-    order: 1;
-  }
-}
-  footer .container :is(.subscription) {
-    width: 100%;
-    order: 2;
-  }
-
-
-@media screen and (max-width: 768px) {
-  footer .container :is(.brand-info, .contact-us, .subscription) {
-    width: 100%;
-    order: 0;
-  }
-}
-
 @media screen and (max-width: 576px) {
   footer .subscribtion-group {
     flex-direction: column;
